@@ -49,7 +49,6 @@ fn an_even_sized_word() {
 }
 
 #[test]
-#[ignore]
 fn wide_characters() {
     let input = "子猫";
     let output = reverse(input);
@@ -58,7 +57,6 @@ fn wide_characters() {
 }
 
 #[test]
-#[ignore]
 #[cfg(feature = "grapheme")]
 fn grapheme_cluster_with_pre_combined_form() {
     let input = "Würstchenstand";
@@ -68,7 +66,6 @@ fn grapheme_cluster_with_pre_combined_form() {
 }
 
 #[test]
-#[ignore]
 #[cfg(feature = "grapheme")]
 fn grapheme_clusters() {
     let input = "ผู้เขียนโปรแกรม";
